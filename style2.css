@@ -1,0 +1,12 @@
+.calculator-field {
+    width: 400x;
+    /* ширина: значение */
+    min-height: 400px;
+    /* минимальная высота */
+    background-color: rgba(0, 0, 255, 0.174);
+    /* фон */
+    border: 3px solid black;
+    /* рамка 3px ширина сплошная черного цвет */
+    margin-top: 50px;
+    /* внешний отступ сверху */
+}
