@@ -1,3 +1,14 @@
 body {
-    background-color:brown;
+    background-color:rgb(161, 231, 243); 
+}
+div {
+    border: 2px solid brown;
+    /* Рамка 2 пикселя сплошная,цвет коричневый */
+    margin-bottom: 10px;
+    /* здесь внешний отступ (нижний) 10пх */
+    width: 400px;
+    /* ширина блока ,который был по умолчанию на всю строку урезали до 400пх */
+}
+.name {
+    border: 2px solid black;
 }
