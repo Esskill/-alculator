@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +11,46 @@
     тип файла stylesheet через атрибут href-путь до файла -->
     <link rel="stylesheet" href="style2.css">
 </head>
-<body> 
-    <div class="name">Привет Максим </div>
-    <!-- class-атрибут ,который принимает значение через ровно(=) -->
-    <div>Привет Всем! </div>
-    <!-- если без class ,то берет все что есть -->
-    <div>Это калькулятор </div>
+
+<body>
+    <div class="app">
+        <div class="name">Привет Максим </div>
+        <!-- class-атрибут ,который принимает значение через ровно(=) -->
+        <div>Привет Всем! </div>
+        <!-- если без class ,то берет все что есть -->
+        <div>Это калькулятор </div>
 
 
 
-    <div class="calculator-field"></div>
+        <div class="calculator-field">
+            <div class="output"></div>
+            <div class="calculator-btns">
+                <div class="block1 ultra">
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                </div>
+                <div class="block2 ultra">
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                </div>
+                <div class="block3 ultra">
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                </div>
+                <div class="block4 ultra">
+                    <button>-</button>
+                    <button>0</button>
+                    <button>+</button>
+                </div>
+            </div>
+            <div class="block5 ultra">
+                <button>Enter</button>
+            </div>
+        </div>
+    </div>
 </body>
-</html> 
+
+</html>

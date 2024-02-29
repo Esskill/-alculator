@@ -2,7 +2,7 @@ body {
     background-color:rgb(161, 231, 243); 
 }
 div {
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     /* Рамка 2 пикселя сплошная,цвет коричневый */
     margin-bottom: 10px;
     /* здесь внешний отступ (нижний) 10пх */
@@ -10,5 +10,17 @@ div {
     /* ширина блока ,который был по умолчанию на всю строку урезали до 400пх */
 }
 .name {
+    padding: 5px;
+    /* внутренний отступ */
     border: 2px solid black;
+}
+.app {
+    display:flex;
+    /* все блоки склеиваются как в таблице */
+    flex-direction: column;
+    /* расправляет в колонку */
+    width: 100%;
+    /* ширина  */
+    align-items: center;
+    /* отцентровали всех детей по середине */
 }

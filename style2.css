@@ -10,3 +10,34 @@
     margin-top: 50px;
     /* внешний отступ сверху */
 }
+.calculator-btns {
+    display:flex;
+    /* все блоки склеиваются как в таблице */
+    flex-direction: column;
+    /* расправляет в колонку */
+    width: 100%;
+    /* ширина  */
+    align-items: center;
+    /* отцентровали всех детей по середине */
+}
+button {
+    margin-bottom: 10px;
+    /* здесь внешний отступ (нижний) 10пх */
+    margin-top: 30px;
+    width: 100%;
+    width: 400px;
+    height: 60px;
+    font-size: 3em;
+}
+.ultra {
+    display:flex;
+    width: 400px;
+}
+.block1 {
+    margin-top: 47px;
+}
+.output {
+    background-color:rgba(1, 1, 3, 0.192);
+    width: 100%;
+    height: 200px;
+}
